@@ -28,13 +28,18 @@ This guide provides step-by-step instructions on how I set up a Jenkins CI/CD pi
 1. In the job configuration, scroll down to the **Build** section.
 2. Click on "Add build step" and I since I was on Windows I selected "Execute Windows batch command"
 3. In the command box, add the commands to build your app:
+```
 echo "Building HTML/CSS/JS project"
+```
 
 ### Step 6: Archive the Build Artifacts
 **Post-build Actions:**
 1. Add a post-build action to "Archive the artifacts".
 2. Specify the files to archive. For example:
-**/*   # This will archive all files in the workspace
+```
+*.html, *.css, *.js
+# This will archive all files in the workspace
+```
 
 ### Step 7: Save and Verify Build
 **Save the Job**
