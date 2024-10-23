@@ -1,0 +1,26 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\Build Todo App
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\Build Todo App\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/Elizzy01/simple-todo-app # timeout=10
+Fetching upstream changes from https://github.com/Elizzy01/simple-todo-app
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.42.0.windows.2'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/Elizzy01/simple-todo-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 756d95144b97b4f27cc8a7b7866fdf52a166f589 (refs/remotes/origin/main)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 756d95144b97b4f27cc8a7b7866fdf52a166f589 # timeout=10
+Commit message: "Added jenkins-assignment folder"
+First time build. Skipping changelog.
+[Build Todo App] $ cmd /c call C:\Windows\TEMP\jenkins662630262738868726.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Build Todo App>echo "Building HTML/CSS/JS project" 
+"Building HTML/CSS/JS project"
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Build Todo App>exit 0 
+Archiving artifacts
+Finished: SUCCESS
